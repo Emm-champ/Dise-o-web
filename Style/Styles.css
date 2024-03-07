@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Amatic SC', sans-serif;
+}
+
+.Contenedor {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Imagenes/SelenaGomezWolvesGif.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar :hover {
+
+  color: #de6262;
+}
+
+
+.Logo2 {
+  cursor: pointer;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f5e0d3;
+  font-size: 10px;
+}
+
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.Musica {
+  flex-basis: 48%;
+}
+
+.Titulo {
+  color: #fff;
+  font-size: 220%;
+  text-align: center;
+  margin-top: -4%;
+  opacity: .3;
+}
+
+
+button {
+  width: 180px;
+  height: 45px;
+  color: #000;
+  font-size: 12px 0;
+  background: #f5e0d3;
+  border: 0;
+  border-radius: 50px;
+  outline: none;
+  margin-top: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8%;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #de6262;
+  box-shadow: #fff;
+  color: #fff;
+}
+
+
+.Subtitulo {
+  color: #fff;
+  font-size: 330%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1.2%;
+  opacity: .6;
+}
+
+
+.card p {
+  text-shadow: 0 0 5px #000;
+  font-size: 8px;
+}
+
+.FotoCircular {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  size: 170px;
+}
+
+.FotoCircular img {
+  width: auto;
+  height: 100%;
+}
+
+h3 .QuienEs {
+  text-align: center;
+}
+
+.AcercaDe {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Imagenes/SelenaGomezWolvesGif.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* .row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.course-col{
+  flex-basis: 50%;
+  background: #fff3f3;
+  border-radius: 20px;
+  margin-bottom: 15%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin-left: 28rem;
+  margin-top: 4rem;
+} */
